@@ -116,7 +116,7 @@ def main():
     destination_txt = tk.Entry(app, width=55, textvariable=download_path)
     destination_txt.grid(row=3, column=1)
 
-    # Set up  buttons for Browsing a file for download directory and to download youtube video
+    # Set up buttons for Browsing a file for download directory and to download youtube video
     browse_btn = tk.Button(app, text="Browse", command=lambda: browse(download_path), width=10, background="Gray")
     browse_btn.grid(row=3, column=2)
     download_btn = tk.Button(app, text="Download", command=lambda: download(vid_link, download_path),
